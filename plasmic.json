@@ -1,0 +1,90 @@
+{
+  "platform": "gatsby",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../static",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "uHYq1jzAtvWkDL6i3pLv7e",
+      "projectApiToken": "upTVlV5fdT1f0HZ5RhOYTgSC6d34pH6T32GI0LTHdB4yfROdA61ysgocigVZcSrUkUI9A9WFYq865n7fq14Q",
+      "projectName": "Goy.Soy",
+      "version": "latest",
+      "cssFilePath": "plasmic/goy_soy/plasmic.module.css",
+      "components": [
+        {
+          "id": "O2S_UkKHdr2A",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "uHYq1jzAtvWkDL6i3pLv7e",
+          "renderModuleFilePath": "plasmic/goy_soy/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/goy_soy/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "39xJZNLnu9h5",
+          "name": "image",
+          "filePath": "plasmic/goy_soy/images/image.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "d55RoxIQT6A9",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "iij642T6zUj9",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "fvHPFZ2B9atP",
+        "name": "Screen",
+        "projectId": "uHYq1jzAtvWkDL6i3pLv7e",
+        "contextFilePath": "plasmic/goy_soy/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "gatsbyConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
+}
